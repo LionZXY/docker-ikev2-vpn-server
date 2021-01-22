@@ -24,6 +24,7 @@
 
 # https://gist.github.com/losisli/11081793
 function generate-certs() {
+	echo "Generate certs"
 	CN=$1
 
 	# root cert
